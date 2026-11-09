@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>PUT</h1>
+        <br>
+        <label for="identificador">CPF para Buscar:</label>
+        <input type="text" id="identificador">
+        <button type="button" onclick="buscarDados()">Buscar</button>
+        <br><br>
+
+        <h3>Dados para Atualizar</h3>
+        <label for="nomeAtualizar">Nome:</label>
+        <input type="text" id="nomeAtualizar">
+        <br><br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome">
+        <br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+        <br><br>
+        <label for="rg">RG:</label>
+        <input type="text" id="rg">
+        <br><br>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf">
+        <br><br>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua">
+        <br><br>
+        <label for="casa">Número da casa:</label>
+        <input type="number" id="casa">
+        <br><br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
+        <br><br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro">
+        <br><br>
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone">
+        <br><br>
+        
+        <button type="button" onclick="atualizarDados()">Atualizar</button>
+        <br><br>
+<br>
+        <h1>Cadastrados</h1>
+        <br>
+    <table>
+        <thead>
+            <tr>
+                <th>ID:</th>
+                <th>Nome:</th>
+                <th>Sobrenome:</th>
+                <th>Senha:</th>
+                <th>Rg:</th>
+                <th>Cpf:</th>
+                <th>Rua:</th>
+                <th>Casa:</th>
+                <th>Cidade:</th>
+                <th>Bairro:</th>
+                <th>Estado:</th>
+                <th>Email:</th>
+                <th>Telefone:</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-corpo"></tbody>
+    </table>
+
+     <h1>POST</h1>
+   <form>
+        <label for="">Nome:</label>
+        <input type="text" id="nome">
+        <br><br>
+        <label for="">Sobrenome:</label>
+        <input type="text" id="sobrenome">
+        <br><br>
+         <label for="">Username:</label>
+        <input type="text" id="username">
+        <br><br>
+        <label for="">CPF:</label>
+        <input type="number" id="cpf">
+        <br><br>
+           <label for="">E-Mail:</label>
+        <input type="text" id="email">
+        <br><br>
+        <label for="">Senha:</label>
+        <input type="password" id="senha">
+        <br><br>
+           <label for="">Rua:</label>
+        <input type="text" id="rua">
+        <br><br>
+          <label for="">CEP:</label>
+        <input type="number" id="cep">
+        <br><br>
+          <label for="">Cidade:</label>
+        <input type="text" id="cidade">
+        <br><br>
+          <label for="">Estado:</label>
+        <input type="text" id="estado">
+        <br><br>
+        <label for="">Telefone:</label>
+        <input type="number" id="telefone">
+        <br><br>
+       <button onclick="enviarDados()">Enviar</button>
+    </form>
+      
+    <h1>Delete</h1>
+    <label for="identificadorDelete">ID</label>
+    <input type="text" id="identificadorDelete">
+    <input type="button" onclick="deletarDados()" value="Deletar">
+
+        
+    </div>
+     <script src="delete.js"></script>
+          <script src="post.js"></script>
+         <script src="get.js"></script>
+        <script src="put.js"></script>
+</body>
+</html>

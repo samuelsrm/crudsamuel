@@ -1,0 +1,169 @@
+{
+  "pessoas": [
+    {
+      "administrador": "Samuel Ribeiro",
+      "senha": "67",
+      "id": "010"
+    },
+    {
+      "nome": "",
+      "idade": "",
+      "id": "IxtkLubxQsE"
+    },
+    {
+      "nome": "Rodrigo",
+      "senha": "Assis",
+      "id": "hToxB-Mggc4"
+    },
+    {
+      "nome": "Bruno",
+      "idade": "150",
+      "id": "zsMkuI2SyHI"
+    },
+    {
+      "nome": "Pedro",
+      "sobrenome": "Marques",
+      "username": "",
+      "rg": "12345678",
+      "cpf": "12345678",
+      "rua": "Belterra ",
+      "casa": "91",
+      "cidade": "São Paulo",
+      "bairro": "Santo Amaro",
+      "estado": "São Paulo",
+      "email": "donabelterra@gmail.com",
+      "telefone": "123456789",
+      "id": "awyPNUn4KOE"
+    },
+    {
+      "nome": "Jamaicano",
+      "sobrenome": "Aura",
+      "idade": "67",
+      "rg": "67676767",
+      "cpf": "55434345",
+      "rua": "Belterra",
+      "casa": "80",
+      "cidade": "Santo André",
+      "bairro": "Nami Jafet",
+      "estado": "RJ",
+      "email": "sdksoakdokasd",
+      "telefone": "0392039203293",
+      "id": "9vNiWg7rOzg"
+    },
+    {
+      "nome": "Rodis",
+      "sobrenome": "safadinho",
+      "username": "rodisafadinho123",
+      "senha": "senha123",
+      "id": "jb79z9IXNmc"
+    },
+    {
+      "nome": "LUCAS ",
+      "sobrenome": "SOUSA",
+      "username": "josepi",
+      "senha": "12345",
+      "id": "BaDRtzc_YAE"
+    },
+    {
+      "nome": "Samuel",
+      "sobrenome": "Ribeiro",
+      "username": "samuel67",
+      "senha": "moggado123",
+      "id": "edZt8vascIo"
+    },
+    {
+      "nome": "Miguel",
+      "sobrenome": "Roberto",
+      "username": "bolsonaro",
+      "senha": "lula22",
+      "id": "nZQv4L7YXHc"
+    },
+    {
+      "nome": "Miguel",
+      "sobrenome": "Valério",
+      "cpf": "87218",
+      "email": "saijjei2",
+      "senha": "67",
+      "cep": "0880",
+      "cidade": "São",
+      "estado": "",
+      "telefone": "",
+      "id": "FrMZXqp63cw"
+    },
+    {
+      "nome": "Miguel",
+      "sobrenome": "Valério",
+      "cpf": "87218",
+      "email": "saijjei2",
+      "senha": "",
+      "cep": "0880",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "telefone": "676767",
+      "id": "A3Q6nUvbRMc"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "cpf": "",
+      "email": "",
+      "senha": "",
+      "cep": "",
+      "cidade": "",
+      "estado": "",
+      "telefone": "",
+      "id": "S1AJ63xbkm4"
+    },
+    {
+      "nome": "Jair",
+      "sobrenome": "Bolsonaro",
+      "cpf": "22",
+      "email": "bolsonaro@gmail.com",
+      "senha": "22",
+      "cep": "080",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "telefone": "2267",
+      "id": "NI9pDd6aANA"
+    },
+    {
+      "nome": "Jair",
+      "sobrenome": "Bolsonaro",
+      "cpf": "22",
+      "email": "bolsonaro@gmail.com",
+      "senha": "22",
+      "cep": "080",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "telefone": "2267",
+      "id": "PZZ6aBXmG8k"
+    },
+    {
+      "nome": "Luiz",
+      "sobrenome": "Lula",
+      "username": "bolsonarinho",
+      "cpf": "1322",
+      "email": "lula@gmail.com",
+      "senha": "13",
+      "cep": "080",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "telefone": "2267",
+      "id": "XVGA10G78rc"
+    },
+    {
+      "nome": "Nome",
+      "sobrenome": "Sobrenome",
+      "username": "skdskdj",
+      "cpf": "29832",
+      "email": "skdskd",
+      "senha": "123",
+      "cep": "39329",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "telefone": "093203",
+      "id": "-9CAlhDpNXI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

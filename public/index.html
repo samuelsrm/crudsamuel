@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Bem-Vindo</h1>
+        <br>
+        <h1>Fazer Login</h1>
+        
+        <!-- Adicionado event.preventDefault() no submit do formulário -->
+        <form onsubmit="fazerLogin(); return false;">
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+            <br><br>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" required>
+            <br><br>
+            <!-- Adicionado type="button" para evitar o recarregamento automático da página -->
+            <button type="button" onclick="fazerLogin()">Entrar</button>
+        </form>
+
+        <br>
+        <a href="cadastro.html">Ainda não tem cadastro?</a>
+        <script src="verificacao.js"></script>
+    </center>
+</body>
+</html>
